@@ -1,14 +1,15 @@
 import ReactDOM from "react-dom"
 import React from "react"
 
+import Primeiro from "./components/Primeiro"
+
 import "./index.css"
 
 const el = document.getElementById("root")
-const tag = <strong>Olá, React!</strong>
 
 ReactDOM.render(
     <div>
-        {tag}
+        <Primeiro></Primeiro>
     </div>,
     el
 )
