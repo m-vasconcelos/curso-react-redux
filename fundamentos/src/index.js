@@ -3,8 +3,10 @@ import React from "react"
 
 import Primeiro from "./components/basicos/Primeiro"
 import ComParametro from "./components/basicos/ComParametro"
+import Fragmento from "./components/basicos/Fragmento"
 
 import "./index.css"
+
 
 const el = document.getElementById("root")
 
@@ -13,6 +15,7 @@ ReactDOM.render(
         <Primeiro></Primeiro>
         <ComParametro titulo="Segundo Componente" subtitulo="Muito legal!" numero={9.3}></ComParametro>
         <ComParametro titulo="Segundo Componente" subtitulo="Mais ou menos!" numero={"6,0"}></ComParametro>
+        <Fragmento></Fragmento>
     </div>,
     el
 )
