@@ -17,7 +17,6 @@ export default function NumeroAleatorio (props) {
             <p>
                 <strong>Número escolhido:</strong> {num}
             </p>
-            
         </div>
     )
 
