@@ -7,6 +7,7 @@ import Fragmento from "./components/basicos/Fragmento"
 import NumeroAleatorio from "./components/basicos/NumeroAleatorio"
 import Card from "./components/layout/Card"
 import Familia from "./components/basicos/Familia"
+import FamiliaMembro from "./components/basicos/FamiliaMembro"
 
 export default function App () {
     return (
@@ -14,7 +15,11 @@ export default function App () {
             <h1>Fundamentos React</h1>
             <div className="cards">
                 <Card titulo="Componentes com Filhos" color="#00C8F8">
-                    <Familia sobrenome="Vasconcelos"></Familia>
+                    <Familia sobrenome="Vasconcelos">
+                        <FamiliaMembro nome="Matheus" ></FamiliaMembro>
+                        <FamiliaMembro nome="Joel" ></FamiliaMembro>
+                        <FamiliaMembro nome="Gabriel" ></FamiliaMembro>
+                    </Familia>
                 </Card>
 
                 <Card titulo="Número Aleatório" color="#FA6900">
