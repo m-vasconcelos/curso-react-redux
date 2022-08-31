@@ -11,6 +11,7 @@ import FamiliaMembro from "./components/basicos/FamiliaMembro"
 import ListaAlunos from "./components/repeticao/ListaAlunos"
 import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 import ParOuImpar from "./components/condicional/ParOuImpar"
+import UsuarioInfo from "./components/condicional/UsuarioInfo"
 
 export default function App () {
     return (
@@ -21,6 +22,8 @@ export default function App () {
 
                 <Card titulo="Rederização Condicional" color="#E94C6F">
                     <ParOuImpar numero={20}></ParOuImpar>
+                    <UsuarioInfo usuario={{nome: "Vasco"}}></UsuarioInfo>
+                    <UsuarioInfo usuario={{nomse: "Vasco"}}></UsuarioInfo>
                 </Card>
 
                 <Card titulo="Tabela de Produtos" color="#E8B71A">
