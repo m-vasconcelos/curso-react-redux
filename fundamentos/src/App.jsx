@@ -22,8 +22,8 @@ export default function App () {
 
                 <Card titulo="Rederização Condicional" color="#E94C6F">
                     <ParOuImpar numero={20}></ParOuImpar>
-                    <UsuarioInfo usuario={{nome: "Vasco"}}></UsuarioInfo>
-                    <UsuarioInfo usuario={{nomse: "Vasco"}}></UsuarioInfo>
+                    <UsuarioInfo usuario={{nome: "Matheus"}}></UsuarioInfo>
+                    <UsuarioInfo usuario={{apelido: "Vasco"}}></UsuarioInfo>
                 </Card>
 
                 <Card titulo="Tabela de Produtos" color="#E8B71A">
