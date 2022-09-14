@@ -3,6 +3,7 @@ import If, {Else} from "./If"
 
 export default props => {
     const usuario = props.usuario || {}
+    
     return (
         <div>
             <If test={usuario && usuario.nome}>
@@ -11,7 +12,7 @@ export default props => {
                     Seja bem vindo, <strong>amigão</strong>!
                 </Else>
             </If>
-            
         </div>
     )
 }
+

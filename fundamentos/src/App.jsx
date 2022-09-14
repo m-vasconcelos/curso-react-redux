@@ -12,6 +12,7 @@ import ListaAlunos from "./components/repeticao/ListaAlunos"
 import TabelaProdutos from "./components/repeticao/TabelaProdutos"
 import ParOuImpar from "./components/condicional/ParOuImpar"
 import UsuarioInfo from "./components/condicional/UsuarioInfo"
+import DiretaPai from "./components/camunicacao/DiretaPai"
 
 export default function App () {
     return (
@@ -20,6 +21,9 @@ export default function App () {
 
             <div className="cards">
 
+                <Card titulo="Comunicação Direta" color="#5932C5">
+                    <DiretaPai></DiretaPai>
+                </Card>
                 <Card titulo="Rederização Condicional" color="#E94C6F">
                     <ParOuImpar numero={20}></ParOuImpar>
                     <UsuarioInfo usuario={{nome: "Matheus"}}></UsuarioInfo>
